@@ -1,4 +1,3 @@
-# rsschool CV
 
 # Nikita Ivanov
 ### Telegram: [@gerpot](https://t.me/gerpot)
