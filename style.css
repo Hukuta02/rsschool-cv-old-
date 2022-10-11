@@ -1,26 +1,25 @@
 body {
+    font-family: "Segoe UI","Helvetica Neue","Helvetica",Arial,sans-serif;
     max-width: 100%;
     max-height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     margin: 0;
 }
 
 .container {
-    max-width: 1440px;
-    height: 90px;
-    color: rgb(28, 36, 20);
+    max-width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15%;
 }
 
 /* header */
 
 .main-header {
-    background-color: rgb(226, 168, 245);
+    background-color: rgb(159, 191, 142);
     text-align: justify;
     letter-spacing: 1px;
-    height: 5%;
-    padding: 30px 10%;
+    padding: 0.7% 10%;
 }
 
 .main-header::after {
@@ -57,11 +56,66 @@ body {
 
 /* main */
 .main-main {
-    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
 }
 
 .main-selfie {
     height: 190px;
     width: 142px;
     border-radius: 13%;
+    margin: 0 40% 0 20%;
+}
+
+.main-text {
+    text-decoration: dotted;
+    margin: 0 0 0 -15%;
+}
+
+.underline {
+    width: 70%;
+    opacity: 70%;
+    margin: 5px 15%;
+    border: solid 10px;
+    border-color: rgb(167, 179, 114);
+    border-radius: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(49, 163, 163);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.right-block {
+    
+}
+
+.left-block {
+    width: 35%;
+}
+
+footer {
+    opacity: .1;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(159, 191, 142);
+    color: #fff;
+}
+
+footer:hover {
+    opacity: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
 }
